@@ -61,7 +61,7 @@ In this project, we currently have the following reference implementations:
 
 | Scenario | Description | Documentation | Pipeline Status |
 | -------- | ----------- | ------------- | --------------- |
-| :arrow_forward: [Scenario 1: App Service Secure Baseline Multi-Tenant](scenarios/secure-baseline-multitenant/README.md) | This scenario deploys a multi-tenant App Service environment with a Hub and Spoke network topology. | [README](scenarios/secure-baseline-multitenant/README.md) | [![Scenario 1: Terraform HUB Multi-tenant Secure Baseline](https://github.com/Azure/appservice-landing-zone-accelerator/actions/workflows/scenario1.terraform.hub.yml/badge.svg?branch=main)](https://github.com/Azure/appservice-landing-zone-accelerator/actions/workflows/scenario1.terraform.hub.yml) [![Scenario 1: Terraform SPOKE Multi-tenant Secure Baseline](https://github.com/Azure/appservice-landing-zone-accelerator/actions/workflows/scenario1.terraform.spoke.yml/badge.svg)](https://github.com/Azure/appservice-landing-zone-accelerator/actions/workflows/scenario1.terraform.spoke.yml) [![Scenario 1: Bicep Multi-Tenant ASEv3 Secure Baseline](https://github.com/Azure/appservice-landing-zone-accelerator/actions/workflows/ase-multitenant.bicep.yml/badge.svg?branch=main)](https://github.com/Azure/appservice-landing-zone-accelerator/actions/workflows/ase-multitenant.bicep.yml) |
+| :arrow_forward: [Scenario 1: App Service Secure Baseline Multi-Tenant](scenarios/secure-baseline-multitenant/README.md) | This scenario deploys a multi-tenant App Service environment with a Hub and Spoke network topology. | [README](scenarios/secure-baseline-multitenant/README.md) | [![Scenario 1: Terraform HUB Multi-tenant Secure Baseline](https://github.com/spectre3ooo/appservice-landing-zone-accelerator/actions/workflows/scenario1.terraform.hub.yml/badge.svg?branch=main)](https://github.com/spectre3ooo/appservice-landing-zone-accelerator/actions/workflows/scenario1.terraform.hub.yml) [![Scenario 1: Terraform SPOKE Multi-tenant Secure Baseline](https://github.com/spectre3ooo/appservice-landing-zone-accelerator/actions/workflows/scenario1.terraform.spoke.yml/badge.svg)](https://github.com/spectre3ooo/appservice-landing-zone-accelerator/actions/workflows/scenario1.terraform.spoke.yml) [![Scenario 1: Bicep Multi-Tenant ASEv3 Secure Baseline](https://github.com/spectre3ooo/appservice-landing-zone-accelerator/actions/workflows/ase-multitenant.bicep.yml/badge.svg?branch=main)](https://github.com/spectre3ooo/appservice-landing-zone-accelerator/actions/workflows/ase-multitenant.bicep.yml) |
 
 > **Note**  
   Currently, the App Service Secure Baseline Multi-Tenant is the only reference implementation available. However, both the Terraform and Bicep configuration files have feature flags available to accommodate additional scenarios. More reference input files will be provided to accommodate additional reference implementations in the future.
@@ -72,7 +72,7 @@ With the selected reference implementation, you can now choose between `Bicep` o
 
 #### Deploy with Azure Portal (Bicep/ARM)
 
-[![Deploy to Azure](https://aka.ms/deploytoazurebutton)](https://portal.azure.com/#view/Microsoft_Azure_CreateUIDef/CustomDeploymentBlade/uri/https%3A%2F%2Fraw.githubusercontent.com%2Fazure%2Fappservice-landing-zone-accelerator%2Fmain%2Fscenarios%2Fsecure-baseline-multitenant%2Fazure-resource-manager%2Fmain.json/uiFormDefinitionUri/https%3A%2F%2Fraw.githubusercontent.com%2Fazure%2Fappservice-landing-zone-accelerator%2Fmain%2Fscenarios%2Fsecure-baseline-multitenant%2Fazure-resource-manager%2Fmain-portal-ux.json)
+[![Deploy to Azure](https://aka.ms/deploytoazurebutton)](https://portal.azure.com/#view/Microsoft_Azure_CreateUIDef/CustomDeploymentBlade/uri/https%3A%2F%2Fraw.githubusercontent.com%2Fspectre3ooo%2Fappservice-landing-zone-accelerator%2Fmain%2Fscenarios%2Fsecure-baseline-multitenant%2Fazure-resource-manager%2Fmain.json/uiFormDefinitionUri/https%3A%2F%2Fraw.githubusercontent.com%2Fspectre3ooo%2Fappservice-landing-zone-accelerator%2Fmain%2Fscenarios%2Fsecure-baseline-multitenant%2Fazure-resource-manager%2Fmain-portal-ux.json)
 
 #### Locally deploy with Bicep
 
@@ -174,7 +174,7 @@ Looking for developer-focused reference implementation? Check out Reliable Web P
 
 ## Got a feedback
 
-Please leverage [issues](https://github.com/Azure/appservice-landing-zone-accelerator/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc) if you have any feedback or request on how we can improve on this repository.
+Please leverage [issues](https://github.com/spectre3ooo/appservice-landing-zone-accelerator/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc) if you have any feedback or request on how we can improve on this repository.
 
 ---
 
